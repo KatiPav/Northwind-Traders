@@ -21,6 +21,7 @@ This is my submission for the technical task for Fourth.
  I used Vite to create React app. Running from the root folder
  - `npm install`
  - `npm run dev`
+   
    should be enough to get it working. The default port is http://localhost:5173, but if this one doesn't work for you and another one is used you will have to set up the other port in the back-end in the appsettings.json file. 
    `  "Cors": {
     "AllowedOrigins": [
@@ -30,14 +31,19 @@ This is my submission for the technical task for Fourth.
 
 ! If there are any issues with the front end you can also skip it and use Swagger instead at 
 `http://localhost:<your-port-here>/swagger/index.html`
+
 I added the front end to make it feel more like a complete project but it has no important functionality.
 
 ### How to run back-end: 
 Run
 - `dotnet run`
+  
   The default port it runs on is localhost:5041, and if that is not the case for you you will have to update the front-end in the .env file like so.
+  
   `VITE_API_BASE_URL=http://localhost:<your-port-here>/api`
+  
   You will also need to update the "DefaultConnection" string in the appsetting.json file with your local database that contains the Northwind db.
+  
   `  "AllowedHosts": "*",
   "ConnectionStrings": {
     "DefaultConnection": "Server=<your-db-name-here>;Trusted_Connection=True;TrustServerCertificate=True"
