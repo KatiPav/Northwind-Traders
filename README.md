@@ -17,7 +17,8 @@ This is my submission for the technical task for Fourth.
 
 ## How to run:
  I made 2 parts - front and back end. Open each project in your IDE (I used VSCode).
- ### How to run front-end : I used Vite to create React app. Running from the root folder
+ ### How to run front-end : 
+ I used Vite to create React app. Running from the root folder
  - `npm install`
  - `npm run dev`
    should be enough to get it working. The default port is http://localhost:5173, but if this one doesn't work for you and another one is used you will have to set up the other port in the back-end in the appsettings.json file. 
