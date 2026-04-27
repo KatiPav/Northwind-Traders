@@ -4,7 +4,9 @@ This is my submission for the technical task for Fourth.
 
 ## Assumptions made:
   You have a copy of the Northwind db on your SQL server.
+  
   This project will be reviewed in development environment.
+  
   In one place I was unsure if the task wants all unique products of an order returned or the total number of products in the order. I've made it with the assumption for unique products.
 
 ## What could be improved:
