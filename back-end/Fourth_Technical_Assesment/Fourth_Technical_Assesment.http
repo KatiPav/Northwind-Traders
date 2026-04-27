@@ -1,0 +1,6 @@
+@Fourth_Technical_Assesment_HostAddress = http://localhost:5041
+
+GET {{Fourth_Technical_Assesment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

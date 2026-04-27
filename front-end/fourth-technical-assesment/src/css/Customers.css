@@ -1,0 +1,80 @@
+.OrderHistory {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #40197d;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.CustomersSearchBar {
+    margin: 20px;
+}
+
+.CustomersSearchBar input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.CustomersSearchBar button {
+    margin-left: 10px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #552c96;
+    color: white;
+    border: none;
+}
+
+.Order {
+    padding: 10px;
+    background-color: rgba(18, 0, 69, 0.4);
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Customers {
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.Customer {
+
+    border-top: 5px solid #3e2475;
+    ;
+    background-color: #777bba;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Customer button {
+    margin: 10px 0 0 0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background-color: #552c96;
+    color: white;
+    border: none;
+}
+
+.Customer div:first-child {
+    font-weight: 900;
+}
+
+.CustomerDetails {
+    padding: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
